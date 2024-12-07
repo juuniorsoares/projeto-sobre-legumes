@@ -1,25 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 
 .titulo1{
-    margin-left: 50px;
+    margin-left: 120px;
     color: #426b1f;
+    font-weight: 100;
 }
 
 .navegacao{
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-right: 80px;
+    margin-right: 60px;
     list-style: none;
 }
 
 .navegacao > li > a{
     text-decoration: none;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao > li > a:hover{
+    text-decoration: underline;
 }
 
 .botao1{
@@ -35,13 +48,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     font-size: 40px;
     text-align: center;
 }
 
 .section1 > h2{
     font-weight: 400;
+}
+
+.section2{
+    height: 100vh;
 }
 
 .botao2{
@@ -51,17 +68,51 @@
     background-color: #426b1f;
     color: #FFFFFFFF;
     font-weight: bold;
+    margin-top: 80px;
 }
 
-.section2{
-    height: 20vh;
-}
 
 .imagens{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .img1{
-    margin-right: 210px;
+    margin-left: 100px;
+}
+
+.img2{
+    margin-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section3{
+    height: 50vh;
+}
+
+.paragrafos{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frasedestacada{
+    font-weight: 600;
+}
+
+.paragrafos2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pergunta1{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
