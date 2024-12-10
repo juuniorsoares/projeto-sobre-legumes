@@ -1,2 +1,2 @@
 # projeto-sobre-legumes
- um projetos simples, sobre legumos.
+ um projetos simples, sobre legumes.
